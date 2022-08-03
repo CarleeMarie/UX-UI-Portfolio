@@ -2,34 +2,33 @@ body {
     margin: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-header {
-    background-color: #373738;
-    padding: 15px;
+.navigation {
+    background-color: #0077b5; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 5%;
+    width: 100%;
 }
-header p {
+
+.nav ul {
     display: inline-block;
+    background: #eb4095;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
 }
-.inline-block {
+.nav li {
     display: inline-block;
-    vertical-align: top;
+    font-size: 20px;
+    padding: 50px;
 }
-.logo {
+.inline-block logo {
     width: 23%;
-    padding: 1%;
-    text-align: center;  
-}
-nav {
-    width: 73%;
-    padding: 1%;
-}
-header ul {
-    width: 50%;
-    margin-left: auto;
-}
-header il {
-    display: inline-block;
-    padding: 0px 5px;
-}
+    padding: 5%;
+    margin: 0%; 
+} 
 .heroImg {
     height: 600px;
     padding: 100px 15px;
