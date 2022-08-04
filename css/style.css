@@ -22,34 +22,16 @@ body {
 .nav li {
     display: inline-block;
     font-size: 20px;
-    padding: 50px;
+    padding: 25px;
 }
-.inline-block logo {
-    width: 23%;
-    padding: 5%;
-    margin: 0%; 
-} 
 .heroImg {
-    height: 600px;
     padding: 100px 15px;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-color: #ebebeb;
-}
-.content {
-    max-width: 300px;
-    margin: 0 auto;  
-    padding: 50px;
-    background-color: #FFFFFF;
-    text-align: center; 
-}
-.mySkills h1 {
-    text-align: center;
 }
 .flexContainer  {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .flexContainer div {
     width: 33%;
