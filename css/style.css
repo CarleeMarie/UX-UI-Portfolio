@@ -13,7 +13,6 @@ body {
 
 .nav ul {
     display: inline-block;
-    background: #eb4095;
     list-style-type: none;
     margin: 0;
     padding: 5px;
@@ -41,11 +40,13 @@ body {
 .myWork h1 {
     text-align: center;
 }
+/* begin grid */
 .workGrid {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #2196F3;
     padding: 10px;
+    row-gap: 50px;
   }
   .item1 {
     background-color: rgba(255, 255, 255, 0.8);
@@ -110,8 +111,16 @@ body {
     font-size: 30px;
     text-align: center;
   }
-
-
+  .item4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+/* end grid */
 .AboutMe h1 {
     text-align: center;
 }
@@ -143,25 +152,11 @@ footer li {
         margin: 0 auto;
         padding: 15px;
     } 
-    #workGrid {
-        margin: 10vh 23vw;
-        height: 80vh;
-        width: 54vh;
+    .workGrid {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(9, 1fr);
-        grid-template-areas: 
-        "photo1"
-        "summary1"
-        "button1"
-        "button2"
-        "summary2"
-        "photo2"
-        "photo3"
-        "summary3"
-        "button3"
-        "seeAll"
-        ;
+        grid-template-columns: auto;
+        background-color: #2196F3;
+        padding: 10px;
     }
 }
 
