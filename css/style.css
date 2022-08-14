@@ -64,6 +64,11 @@ body {
 content {
   margin-top: 240px;
 }
+.blankSpace {
+  z-index: 15;
+  height: 240px;
+  width: 100%;
+}
 .heroImg {
     padding: 50px 15px;
     background-color: #ebebeb;
