@@ -1,11 +1,12 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     font-family:'Noto Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/*start of styling to go with sticky header using jQuery*/
 .header {
   background-color: #0077b5; 
   text-align: center;
@@ -37,17 +38,15 @@ body {
   height: 5%;
   width: 100%;
 }
-
 .nav div {
   position: fixed;
   z-index: 10;
   visibility: hidden;
 }
-
 .visible-title {
   visibility: visible;
 }
-
+/*end of code dealing with sticky header*/
 
 
 .nav ul {
@@ -61,6 +60,9 @@ body {
     display: inline-block;
     font-size: 20px;
     padding: 5px 25px 10px 25px;
+}
+content {
+  margin-top: 240px;
 }
 .heroImg {
     padding: 50px 15px;
