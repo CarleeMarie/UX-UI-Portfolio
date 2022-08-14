@@ -5,6 +5,8 @@ body {
     margin: 0;
     font-family:'Noto Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 .navigation {
     background-color: #0077b5; 
     text-align: center;
@@ -26,51 +28,78 @@ body {
     padding: 25px;
 }
 .heroImg {
-    padding: 100px 15px;
+    padding: 50px 15px;
     background-color: #ebebeb;
+}
+.AboutMe {
+    padding: 25px 150px 25px 150px;
+    background-color: bisque;
+}
+.resume {
+    padding: 70px 0;
+    text-align: center;
+}
+.resumeButton {
+  background-color: #2E655B;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
 }
 .flexContainer  {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
+.flexContainer h1 {
+    text-align: center; 
+}
 .flexContainer div {
-    width: 33%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     padding: 15px;
 }
-.myWork h1 {
+.projects h1 {
     text-align: center;
 }
 /* begin grid */
 .workGrid {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    background-color:#0077b5;
     padding: 10px;
     row-gap: 50px;
   }
   .item1 {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
   }
   .summary1 {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
   }
+
   .button1 {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
+    position: relative;
+    left: 50%;
+    background-color: bisque;
+    border: 3px solid #000000;
+    color: #000000;
+    padding: 15px 32px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
   }
+
+  
   .item2 {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
